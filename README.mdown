@@ -1,0 +1,28 @@
+## Hubot Facebook Adapter
+
+Connects Hubot to your chat.facebook.com
+
+### Setup
+
+Install dependencies with `npm`
+
+	npm install
+
+### Configuration
+
+There are a few configuration values you can use when getting hubot-facebook
+running. The FACEBOOK adapter requires only 3 environment variables to be set to able to use it.
+
+* `HUBOT_FACEBOOK_ACCESS_TOKEN`
+* `HUBOT_FACEBOOK_APP_ID`
+* `HUBOT_FACEBOOK_USER_ID`
+
+### Installation
+
+After installing `hubot` with npm, you should create a standalone bot:
+
+	hubot -c ./my-bot
+
+After creating your new bot, you should modify the `package.json` and add the
+`hubot-xmpp` and some other dependencies. After running `npm install` you should be ready to configure
+and start up your bot.

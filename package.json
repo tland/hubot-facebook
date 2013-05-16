@@ -1,0 +1,34 @@
+{
+  "name": "hubot-facebook",
+  "version": "0.1.0",
+  "author": "Mark Story <mark@mark-story.com> (http://mark-story.com)",
+  "description": "Facebook adapter for Hubot.",
+  "keywords": ["hubot", "facebook", "adapter"],
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markstory/hubot-xmpp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/markstory/hubot-xmpp/issues"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "main": "./src/facebook.coffee",
+  "engine": "node > 0.6.0 < 0.8.0",
+  "dependencies": {
+    "facebook-api": "0.1.2",
+    "facebook-chat": ">= 0.0.2",
+    "node-xmpp": ">= 0.3.2",
+    "node-expat": ">= 1.6.1",
+    "hubot-conversation": ""
+  },
+  "devDependencies": {
+    "hubot": ">=2.4.7",
+    "coffee-script": ">= 1.1.3",
+    "mocha": ">= 0.2.0"
+  }
+}
